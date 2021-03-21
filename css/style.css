@@ -1,52 +1,54 @@
-body .content {
-    min-width: 768px;
-    max-width: 1200px;
-
-    margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-
-    gap: 40px;
-
-    font-family: Merriweather, sans-serif;
-    font-size: 14px;
-    line-height: 1.7;
-
-
+body {
+    font-size: 14px; /**/
+    line-height: 1.7; /**/
 
     color: #898989;
+    margin: 0;
+}
+
+body .content {
+    min-width: 768px; /**/
+    max-width: 1200px; /**/
+
+    padding-left: 20px; /**/
+    padding-right: 20px; /**/
+
+    margin: auto;
 }
 
 body h1, h2, h3, h4, h5, h6, a, menu, button {
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif; /**/
+}
+
+body p {
+    font-family: Merriweather, sans-serif; /**/
+    color: #898989; /**/
 }
 
 #news-btn, #submit-btn {
-    font-size: 13px;
-    word-spacing: .15em;
+    font-size: 13px; /**/
+    word-spacing: .15em; /**/
 
     text-transform: uppercase;
-
-
 }
 
 body h1, h2, h3, h4, h5, h6 {
-    color: #4d4d4d;
+    color: #4d4d4d; /**/
     font-weight: normal;
 }
 
 body a {
     text-decoration: none;
-    color: steelblue;
+    color: steelblue; /**/
 }
 
 body a:hover {
-    color: black;
+    color: black; /**/
 }
 
 #navigation {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px; /**/
+    margin-bottom: 20px; /**/
 }
 
 #nav-logo {
@@ -55,8 +57,9 @@ body a:hover {
 }
 
 #nav-logo a {
-    font-size: 25px;
-    color: black;
+    font-size: 25px; /**/
+    color: black; /**/
+
     font-weight: bold;
 }
 
@@ -65,10 +68,9 @@ body a:hover {
 }
 
 #nav-menu a {
-    margin: 20px;
-    font-size: 13px;
-    word-spacing: 0.3em;
-    vertical-align: center;
+    font-size: 13px; /**/
+    word-spacing: 0.5em; /**/
+    vertical-align: center; /**/
 
     text-align: right;
     text-transform: uppercase;
@@ -77,6 +79,7 @@ body a:hover {
 
 #nav-menu ul li {
     display: inline-block;
+    margin: 10px; /**/
 }
 
 #header {
@@ -90,31 +93,32 @@ body a:hover {
 }
 
 #header h1 {
-    font-size: 32px;
-    color: white;
+    font-size: 32px; /**/
+    color: white; /**/
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 20px; /**/
+    padding-left: 20px; /**/
 }
 
 #about {
-    margin-top: 40px;
-    margin-bottom: 100px;
+    margin-top: 40px; /**/
+    margin-bottom: 100px; /**/
 }
 
 #about h2 {
-    font-size: 40px;
+    font-size: 40px; /**/
 
     text-align: center;
 }
 
 #about h3 {
-    font-size: 24px;
+    font-size: 24px; /**/
 
 }
 
 #about p {
     text-align: center;
+    font-size: 18px;
 }
 
 #about .content > div {
@@ -123,18 +127,19 @@ body a:hover {
 }
 
 #about .about-item {
-    width: 33%;
-    margin-right: 40px;
+    width: 33%; /**/
 }
 
 #about .about-item p {
     text-align: left;
+    font-size: 14px;
+    color: #bfbfbf;
 }
 
 #middle-sections {
-    margin-top: 40px;
-    margin-bottom: 100px;
-    background: whitesmoke;
+    margin-top: 40px; /**/
+    margin-bottom: 100px; /**/
+    background: whitesmoke; /**/
 }
 
 #middle-sections .content {
@@ -142,50 +147,72 @@ body a:hover {
 }
 
 #middle-sections h2 {
-    font-size: 32px;
+    font-size: 32px; /**/
 }
 
 #middle-sections h3 {
-    font-size: 24px;
+    font-size: 24px; /**/
 }
 
 #news {
-    width: 60%;
+    width: 60%; /**/
 }
 
 #news div {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /**/
 }
 
 #news .news-date {
-    font-size: 12px;
+    font-size: 12px; /**/
     text-transform: uppercase;
     color: #bfbfbf;
 }
 
-#news #news-btn a {
-    background: lightsteelblue;
+#news-btn {
+    padding-bottom: 80px;
+}
+
+
+#news-btn a {
+    font-weight: bold;
+    background: lightsteelblue; /**/
+    padding: 10px 20px 10px 20px;
 }
 
 #news p {
-    border-bottom: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3; /**/
+    margin-right: 40px;
+    padding-bottom: 20px;
 }
 
 #references {
-    width: 40%;
+    width: 40%; /**/
 }
 
 #references img {
-    width: 120px;
-    margin-right: 20px;
-    margin-bottom: 40px;
+    width: 120px; /**/
+    margin-right: 20px; /**/
 
     border-radius: 50%;
+    float: left;
+}
+
+#references blockquote {
+    padding-bottom: 40px; /**/
+    margin: 0;
+}
+
+#references blockquote p {
+    font-size: 21px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 #references .ref-author {
-    font-size: 14px;
+    font-size: 14px; /**/
     color: #bfbfbf;
+    font-style: italic;
 }
 
 #references p {
@@ -193,8 +220,8 @@ body a:hover {
 }
 
 #steps {
-    margin-top: 40px;
-    margin-bottom: 100px;
+    margin-top: 40px; /**/
+    margin-bottom: 100px; /**/
 }
 
 #steps .content {
@@ -202,23 +229,93 @@ body a:hover {
 }
 
 #steps i {
-    font-size: 60px;
-    color: lightsteelblue;
+    font-size: 60px; /**/
+    color: lightsteelblue; /**/
 
     float: left;
-    padding-bottom: 70px;
-    padding-right: 10px;
+    padding-bottom: 100px;
+    padding-right: 20px;
 }
 
 #steps h3 {
-    font-size: 14px;
+    font-size: 14px; /**/
     text-transform: uppercase;
     font-weight: bold;
 }
 
+#steps p {
+    padding-right: 40px;
+}
+
 #steps .steps-more {
-    font-size: 11px;
+    font-size: 11px; /**/
     text-transform: uppercase;
     font-weight: bold;
+}
+
+#contact {
+    padding-top: 40px; /**/
+    padding-bottom: 100px; /**/
+
+    background: #262626; /**/
+}
+
+#contact h3 {
+    font-size: 24px; /**/
+    color: white; /**/
+    margin-top: 0;
+}
+
+#contact .content {
+    display: flex;
+}
+
+#contact .contact-item {
+    width: 33%;
+}
+
+#contact ul {
+    padding: 0;
+}
+
+#contact li {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+#contact a:hover {
+    color: white; /**/
+}
+
+#contact input {
+    height: 54px; /**/
+    font-size: 18px; /**/
+    margin-bottom: 4px; /**/
+    border-width: 0;
+    border-radius: 4px;
+}
+
+#email-form {
+    width: 100%;
+    padding-left: 5px;
+    color: #bfbfbf;
+}
+
+#email-form:invalid {
+    color: #c00000; /**/
+}
+
+#submit-btn {
+    background: steelblue; /**/
+    color: white; /**/
+    border-radius: 4px; /**/
+}
+
+#footer-note {
+    padding-top: 20px; /**/
+    padding-bottom: 20px; /**/
+    background: #1a1a1a; /**/
+    font-size: 12px; /**/
 }
 
