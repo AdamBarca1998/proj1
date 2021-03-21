@@ -1,0 +1,220 @@
+body .content {
+    min-width: 768px;
+    max-width: 1200px;
+
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    gap: 40px;
+
+    font-family: Merriweather, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: #898989;
+}
+
+body h1, h2, h3, h4, h5, h6, a, menu, button {
+    font-family: Montserrat, sans-serif;
+}
+
+#news-btn, #submit-btn {
+    font-size: 13px;
+    word-spacing: .15em;
+
+    text-transform: uppercase;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+    color: #4d4d4d;
+    font-weight: normal;
+}
+
+body a {
+    text-decoration: none;
+    color: steelblue;
+}
+
+body a:hover {
+    color: black;
+}
+
+#navigation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#nav-logo {
+    float: left;
+    vertical-align: center;
+}
+
+#nav-logo a {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+#nav-menu {
+    text-align: right;
+}
+
+#nav-menu a {
+    margin: 20px;
+    font-size: 13px;
+    word-spacing: 0.3em;
+    vertical-align: center;
+
+    text-align: right;
+    text-transform: uppercase;
+    color: #bfbfbf;
+}
+
+#nav-menu ul li {
+    display: inline-block;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#header img {
+    max-width: 1200px;
+}
+
+#header h1 {
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#about {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#about h2 {
+    font-size: 40px;
+
+    text-align: center;
+}
+
+#about h3 {
+    font-size: 24px;
+
+}
+
+#about p {
+    text-align: center;
+}
+
+#about .content > div {
+    display: flex;
+    size: 45px;
+}
+
+#about .about-item {
+    width: 33%;
+    margin-right: 40px;
+}
+
+#about .about-item p {
+    text-align: left;
+}
+
+#middle-sections {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background: whitesmoke;
+}
+
+#middle-sections .content {
+    display: flex;
+}
+
+#middle-sections h2 {
+    font-size: 32px;
+}
+
+#middle-sections h3 {
+    font-size: 24px;
+}
+
+#news {
+    width: 60%;
+}
+
+#news div {
+    margin-bottom: 20px;
+}
+
+#news .news-date {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #bfbfbf;
+}
+
+#news #news-btn a {
+    background: lightsteelblue;
+}
+
+#news p {
+    border-bottom: solid 1px #e3e3e3;
+}
+
+#references {
+    width: 40%;
+}
+
+#references img {
+    width: 120px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+    border-radius: 50%;
+}
+
+#references .ref-author {
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+#references p {
+    color: #4d4d4d;
+}
+
+#steps {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#steps .content {
+    display: flex;
+}
+
+#steps i {
+    font-size: 60px;
+    color: lightsteelblue;
+
+    float: left;
+    padding-bottom: 70px;
+    padding-right: 10px;
+}
+
+#steps h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#steps .steps-more {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
